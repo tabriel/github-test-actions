@@ -13,7 +13,7 @@ jobs:
 
     runs-on: ubuntu-latest
     env:
-      name: vic3pwa
+      name: vic3pwa A.
     steps:
     - name: Run a one-line script
       run: echo Hello, $name!
