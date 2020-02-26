@@ -25,11 +25,11 @@ jobs:
 
     runs-on: ubuntu-latest
     env:
-      pos: graduate at ceni80
+      posi: graduate at ceni80
     if: github.event_name == 'pull_request'
     needs: [build]
     steps:
     - name: Run a multi-line script
       run: |
         echo Hello $name
-        echo I see you are a $pos, you're doing well
+        echo I see you are a $posi
